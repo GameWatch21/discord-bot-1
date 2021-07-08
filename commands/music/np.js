@@ -1,4 +1,5 @@
-const embed = require('discord.js')
+const embed = require('discord.js');
+const player= require('discord-player');
 
 module.exports = {
     name : 'np',
