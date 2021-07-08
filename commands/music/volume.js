@@ -1,3 +1,5 @@
+const player= require('discord-player');
+
 module.exports = {
     name : 'volume',
     run : async(client, message, args) => {
