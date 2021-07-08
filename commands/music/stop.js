@@ -1,3 +1,5 @@
+const player= require('discord-player');
+
 module.exports = {
     name : 'stop',
     run : async(client, message, args) => {
