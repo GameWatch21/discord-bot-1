@@ -1,3 +1,4 @@
+const player= require('discord-player');
 module.exports = {
     name : 'clear-queue',
     run : async(client, message, args) => {
