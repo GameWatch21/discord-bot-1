@@ -1,42 +1,62 @@
-<h1 align="center">Digi UwU</h1>
+<h1 align="center">Neko UwU</h1>
 
 <div align="center">
-	<a href="https://github.com/NekoIceCream/discord-bot/actions">
-		<img src="https://github.com/NekoIceCream/discord-bot/actions/workflows/checker-ci.yml/badge.svg" alt="Build CI" />
+	<a href="https://github.com/NekoIceCream/Discord-Bot/actions">
+		<img src="https://github.com/NekoIceCream/Discord-Bot/actions/workflows/checker-ci.yml/badge.svg" alt="Build CI" />
 	</a>
 </div>
 
-<div align="center">
-  Bot created for fun, I guess
-</div>
-
-## README Navigation
+## Navigation
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [License](#license)
+- [Current Status](#Current-Status)
+- [Plan](#Plan)
+- [License](https://github.com/NekoIceCream/Discord-Bot/blob/main/LICENSE.md)
 
 ## Introduction
 Digi UwU is a Discord bot created by NekoIceCream written in JavaScript with npm, this bot was created for fun and learning on developing with JavaScript.
 
 ## Installation
 1. Fork the repo
-2. Edit your bot token at `discord-bot/config.json`
+2. Edit your token at `discord-bot/config.json`
    ```
    {
     "token": "YOUR_TOKEN",
-    "prefix": "YOUR_PREFIX"
-    "game": "YOUR_PLAYING_STATUS"
+    "prefix": "YOUR_PREFIX",
+    "game": "YOUR_PLAYING_STATUS",
+    "mongoose": "YOUR_MONGODB_URL/(DATABASE_NAME)",
+    "shard": "TOTAL_YOUR_SHARD"
    }
    ```
-3. Start your bot 
+3. Install all modules
+   ```
+   npm i
+   ```
+4. Start your bot 
 
-*Note: Installation may not up-to-date*
+- Without Shard
+  ```
+  node index.js
+  ```
+- With Shard
+  ```
+  node shard.js
+  ```
+  or
+  ```
+  npm start
+  ````
 
-## License
-Copyright (c) 2021 NekoIceCream
+## Current Status
+1. Music Command [Not Work]
+2. Custom Status [Not Work] [In Progress]
+3. MongoDB Database [Not Work] [In Progress]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Plan
+1. Fix Bugs
+2. Multi Language
+3. ChatBot
+4. Shard Support [In Progress]
+5. Slash Commands
+6. Economy Bot (If MongoDB Fixed)
+7. Website

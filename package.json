@@ -1,8 +1,8 @@
 {
   "name": "discord-bot",
-  "version": "1.4.6",
-  "description": "A Discord-Bot",
-  "main": "index.js",
+  "version": "1.8.0",
+  "description": "A Discord Bot: Made With Love In This World",
+  "main": "shard.js",
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.5",
     "ascii-table": "0.0.9",
@@ -18,21 +18,27 @@
     "@discordjs/opus": "^0.3.2",
     "discord-player": "^3.0.2",
     "ffmpeg": "^0.0.4",
-    "ffmpeg-static": "^4.4.0"
+    "ffmpeg-static": "^4.4.0",
+    "mongoose": "^5.13.2",
+    "reconlx": "^1.2.41",
+    "dotenv": "^8.2.0"
 
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node index.js"
+    "test": "node shard.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NekoIceCream/discord-bot.git"
+    "url": "git+https://github.com/NekoIceCream/Discord-Bot.git"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "author": "NekoIceCream",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NekoIceCream/discord-bot/issues"
+    "url": "https://github.com/NekoIceCream/Discord-Bot/issues"
   },
-  "homepage": "https://github.com/NekoIceCream/discord-bot#readme"
+  "homepage": "https://github.com/NekoIceCream/Discord-Bot#readme"
 }
